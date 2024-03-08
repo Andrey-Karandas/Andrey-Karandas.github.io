@@ -3,24 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Графік</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Список Задач</title>
   </head>
   <body>
     <div class="wrapper">
-      <div class="row">
-        <div class="row__column">
-          <select class="select">
-            <option value="Андрій">Андрій</option>
-            <option value="Богдан">Богдан</option>
-            <option value="Міша">Міша</option>
-          </select>
-        </div>
-        <div class="row__column">
-          <button class="btn">Набрав воду</button>
-        </div>
-      </div>
+      <input class="input" placeholder="Введите задачу" type="text" value="" />
+      <button class="add" type="button">Добавить</button>
+      <h3 class="title">Список Задач</h3>
+      <ul class="list"></ul>
     </div>
-    <script src="app.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
